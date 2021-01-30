@@ -24,6 +24,10 @@ body{
 .navbar-a a , .main{
   color:aliceblue;
 }
+.table-color{
+  background-color:#464647!important;
+  color:aliceblue!important;
+}
 .main-section{
   width:100%;
 }
@@ -45,7 +49,7 @@ h1{
   text-decoration: none;
 }
 .btn{
-  background-color:#749476;
+  background-color:#41464b;
   border: none;
 }
 .btn:hover{
@@ -58,7 +62,7 @@ h1{
   padding:12px;
 }
 .navbar{
-  background-color:#97ae99!important;
+  background-color:#464647!important;
 }
 h2, h4{
   color:aliceblue;
@@ -70,7 +74,7 @@ h2, h4{
   padding:0 45px;
 }
 .g-back{
-  color:#40d34c;
+  color:#0f5132;
 }
 .change-password-main{
   padding: 0 50px;
@@ -86,7 +90,7 @@ h2, h4{
   right: 15px;
   top: 15px;
 }
-.colors{
+.colors, {
 color:#646464!important;
 }
 .image-nav{
@@ -95,3 +99,7 @@ width:2.5rem;
 height:2.5rem;
 border-radius: 50%;
 }
+.table-bordered, th, td{
+border: 3px solid#464647!important;
+}
+
