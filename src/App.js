@@ -1,8 +1,8 @@
 import React from "react";
-import CreateAlert from "./CreateAlert";
 import NavBar from "./NavBar";
 import SideBar from "./Sidebar";
 import "./style.css";
+import UpdateAlert from "./UpdateAlert";
 
 const App = () => {
     return (
@@ -10,7 +10,7 @@ const App = () => {
             <NavBar />
             <div className="d-flex">
                 <SideBar />
-                <CreateAlert />
+                <UpdateAlert />
             </div>
 
 
