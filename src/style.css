@@ -102,3 +102,12 @@ border-radius: 50%;
 .table-bordered, th, td{
 border: 3px solid#464647!important;
 }
+.image-account{
+color: #177ee5;
+width:20rem;
+height:20rem;
+border-radius: 50%;
+}
+.account-photo{
+width:80%;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import MyAccount from "./MyAccount";
 import NavBar from "./NavBar";
 import SideBar from "./Sidebar";
 import "./style.css";
@@ -11,7 +12,7 @@ const App = () => {
             <NavBar />
             <div className="d-flex">
                 <SideBar />
-                <Tables />
+                <MyAccount />
             </div>
 
 
